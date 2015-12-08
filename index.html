@@ -1,0 +1,31 @@
+<!doctype>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/fontello.css" rel="stylesheet" type="text/css" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  <script src="video.js"></script>
+
+</head>
+<body>
+<h2>Avici - "The Nights"</h2>
+  <section id="container">
+    <video id="vid" height="500px">
+      <source src="TheNights.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section id="button">
+    <div onclick="EndVideo();" id="end"><i class="icon-to-end-alt"></i></div>
+    <div onclick="RewindVideo();" id="start"><i class="icon-to-start-alt"></i></div>
+    <div onclick="PauseVideo();" id="pause"><i class="icon-pause"></i></div>
+    <div onclick="PlayVideo();" id="play"><i class="icon-play"></i></div>
+    <div style="clear:both;"></div>
+      <div onclick="DeVolume();" id="minus"><i class="icon-minus"></i></div>
+      <div onclick="InVolume();" id="plus"><i class="icon-plus"></i></div>
+  </section>
+</body>
+</html>

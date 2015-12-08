@@ -1,0 +1,113 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #6E6E73;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+
+#container {
+  margin-left: 400px;
+  text-align: center;
+  width: 1000px;
+}
+
+#vid {
+  -webkit-filter: sepia();
+  filter: sepia(100%);
+  -webkit-box-shadow: 5px 10px 10px #000000;
+  box-shadow: 5px 10px 10px #000000;
+}
+
+#button {
+  width: 700px;
+  margin-top: 25px;
+  margin-left: 400px;
+}
+
+#minus {
+  float: right;
+  margin-top: 10px;
+  background-color: #C1D6D6;
+  width: 42px;
+  height: 42px;
+}
+
+#minus:hover {
+  cursor: pointer;
+  background-color: #b1c5c5;
+}
+
+#plus {
+  float: right;
+  margin-top: 10px;
+  margin-right: 14px;
+  background-color: #C1D6D6;
+  width: 42px;
+  height: 42px;
+}
+
+#plus:hover {
+  cursor: pointer;
+  background-color: #b1c5c5;
+}
+
+#play {
+  width: 100px;
+  height: 100px;
+  background-color: #C1D6D6;
+  float: right;
+  margin-left: 10px;
+}
+
+#play:hover {
+  background-color: #a0b4b4;
+  cursor: pointer;
+}
+
+#pause {
+  width: 100px;
+  height: 100px;
+  background-color: #C1D6D6;
+  float: right;
+  margin-left: 10px;
+}
+
+#pause:hover {
+  background-color: #a0b4b4;
+  cursor: pointer;
+}
+
+#start {
+  width: 100px;
+  height: 100px;
+  background-color: #C1D6D6;
+  float: right;
+  margin-left: 10px;
+}
+
+#start:hover {
+  background-color: #a0b4b4;
+  cursor: pointer;
+}
+
+#end {
+  width: 100px;
+  height: 100px;
+  background-color: #C1D6D6;
+  float: right;
+  margin-left: 10px;
+}
+
+#end:hover {
+  background-color: #a0b4b4;
+  cursor: pointer;
+}
